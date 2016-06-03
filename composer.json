@@ -1,0 +1,23 @@
+{
+  "name": "postitief/piwik",
+  "description": "A description about your extension should go here.",
+  "type": "bolt-extension",
+  "require": {
+    "bolt/bolt": "^3.0"
+  },
+  "authors": [
+    {
+      "name": "Dylan Boertje",
+      "email": "d.boertje@postitief.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bolt\\Extension\\Postitief\\Piwik\\": "src/"
+    }
+  },
+  "extra": {
+    "bolt-assets": "web",
+    "bolt-class": "Bolt\\Extension\\Postitief\\Piwik\\PiwikExtension"
+  }
+}
